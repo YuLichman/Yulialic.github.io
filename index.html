@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Галерея (учебная практика)</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="iview.css" />
+		<link rel="stylesheet" href="style1.css" />
+		<script src="jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="raphael-min.js"></script>
+		<script type="text/javascript" src="jquery.easing.js"></script>
+
+		<script src="iview.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#iview').iView({
+					pauseTime: 7000,
+					directionNav: false,
+					controlNav: true,
+					tooltipY: -15
+				});
+			});
+		</script>
+
+	</head>
+
+	<body>
+<div id="cont">
+		<div id="header">
+			<div class="container">
+				<div id="nav">
+					<ul>
+						
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	<div class="container">
+		<div id="iview">
+			<div data-iview:image="https://img1.goodfon.ru/wallpaper/nbig/2/66/more-volny-zakat-oblaka.jpg" ></div>
+			<div data-iview:image="https://i.ytimg.com/vi/aoh6oUhtiyo/maxresdefault.jpg" data-iview:transition="zigzag-drop-top,zigzag-drop-bottom" data-iview:pausetime="3000"></div>
+			<div data-iview:image="https://99px.ru/sstorage/53/2013/11/tmb_87393_9523.jpg"></div>
+			<div data-iview:image="https://99px.ru/sstorage/53/2012/02/tmb_33341_9107.jpg"></div>
+			<div data-iview:image="https://img.fonwall.ru/o/8p/vecher-ozero-bereg-nebo.jpg"></div>
+		</div>
+	</div>
+
+	<div class="copy">Yulia Lichman</a>.<br>2019.</div>
+</div>
+
+<div id="background-image">
+	<img src="https://clipart-db.ru/file_content/rastr/background_065.jpg" width="1820" height="1024" />
+</div>
+<script type="text/javascript" src="jquery.fullscreen.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#background-image").fullscreenBackground();
+	});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30854466-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</body>
+</html>
